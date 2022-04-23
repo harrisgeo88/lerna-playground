@@ -1,0 +1,19 @@
+{
+  "name": "lerna-playground",
+  "version": "1.0.0",
+  "description": "A repo where I can play with lerna",
+  "author": "harrisgeo88 <harrisgeo1988@gmail.com>",
+  "scripts": {
+    "build": "lerna run build",
+    "publish": "lerna run build && lerna publish",
+    "run-all": "concurrently \"npm run dev --prefix packages/frontend\" \"npm run dev --prefix packages/backend\""
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "concurrently": "^7.1.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.3"
+  }
+}
