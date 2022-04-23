@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/backend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "harrisgeo88 <harrisgeo1988@gmail.com>",
   "homepage": "",
@@ -19,7 +19,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@monorepo/utils": "^1.0.0"
+    "@monorepo/utils": "^0.0.1"
   },
   "devDependencies": {
     "serverless-offline": "^8.7.0",

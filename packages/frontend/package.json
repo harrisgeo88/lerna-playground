@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "harrisgeo88 <harrisgeo1988@gmail.com>",
   "homepage": "",
@@ -12,7 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@monorepo/utils": "^1.0.0",
+    "@monorepo/utils": "^0.0.1",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
