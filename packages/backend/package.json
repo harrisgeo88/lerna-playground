@@ -1,0 +1,29 @@
+{
+  "name": "@monorepo/backend",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "harrisgeo88 <harrisgeo1988@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/backend.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "serverless offline --httpPort 4000",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@monorepo/utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.7.0",
+    "serverless-plugin-typescript": "^2.1.2",
+    "typescript": "^4.6.3"
+  }
+}
